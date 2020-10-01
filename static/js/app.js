@@ -1,5 +1,5 @@
 //Read Json file
-url = "../data/samples.json"
+url = "./samples.json"
 d3.json(url).then(function(data) {
     // Show Data
     console.log("Full Data")
